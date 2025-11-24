@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Santhosh P — Stunning Portfolio 2025</title>
+  <meta name="description" content="Santhosh P — Software Developer & ML Enthusiast. Q-Learning weather forecasting, Paddy leaf disease detection, SIH (ISRO) finalist." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#07101a; --card:rgba(255,255,255,0.03); --muted:rgba(255,255,255,0.66);
+      --accent1:204,56,255; --accent2:0,240,216;
+      --glass-blur:10px;
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box} html,body{height:100%}
+    body{
+      margin:0; font-family:Inter,system-ui,Arial; color:#e9f3ff;
+      background: radial-gradient(circle at 10% 10%, rgba(var(--accent1),0.06), transparent 7%),
+                  radial-gradient(circle at 90% 90%, rgba(var(--accent2),0.05), transparent 7%),
+                  linear-gradient(180deg,#07101a,#051018 60%);
+      -webkit-font-smoothing:antialiased; padding:28px; display:flex; justify-content:center;
+    }
+    .wrap{width:100%;max-width:var(--maxw)}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;gap:12px}
+    .brand{display:flex;gap:14px;align-items:center}
+    .brand img{width:140px;height:140px;object-fit:cover;border-radius:18px;border:3px solid rgba(var(--accent2),0.16)}
+    .brand .name{font-family:Space Grotesk;font-size:1.25rem}
+    nav{display:flex;gap:10px;align-items:center}
+    a.nav{color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:10px;font-weight:700}
+    a.nav:hover{color:white;background:linear-gradient(90deg, rgba(var(--accent1),0.08), rgba(var(--accent2),0.06))}
+    .cta{display:flex;gap:10px;align-items:center}
+    .btn{padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--muted);font-weight:700;text-decoration:none}
+    .btn.primary{background:linear-gradient(90deg, rgba(var(--accent1),0.95), rgba(var(--accent2),0.95)); color:#021; border:none}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:26px;align-items:start;margin-bottom:20px}
+    .card{background:var(--card);border-radius:16px;padding:20px;border:1px solid rgba(255,255,255,0.04);backdrop-filter:blur(var(--glass-blur))}
+    .kicker{color:var(--muted);font-weight:700;letter-spacing:0.6px}
+    h1{font-family:Space Grotesk;margin:8px 0 10px;font-size:clamp(1.6rem,3.2vw,2.4rem)}
+    p.lead{color:var(--muted);margin-bottom:12px}
+    .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .tag{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03);font-size:0.82rem;color:var(--muted)}
+    /* projects */
+    .projects{margin-top:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+    .project{padding:14px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);cursor:pointer;transition:transform .28s,box-shadow .28s}
+    .project:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(2,6,23,0.6)}
+    .project h3{margin:0 0 6px}
+    /* contact */
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+    .small{font-size:0.95rem;color:var(--muted)}
+    footer{color:var(--muted);text-align:center;margin-top:18px}
+    /* Responsive */
+    @media(max-width:980px){.hero{grid-template-columns:1fr}.brand img{width:110px;height:110px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <!-- USE your file: Santhosh.jpg (place in same folder) -->
+       <img src="Santhosh.jpg" alt="Santhosh P" style="width:150px;height:180px;object-fit:cover;object-position:top;border-radius:18px;border:3px solid var(--accent)">
+
+        <div>
+          <div class="name">Santhosh P</div>
+          <div class="small">Software Developer • ML Enthusiast • Q-Learning & CNNs</div>
+        </div>
+      </div>
+
+      <div class="cta">
+        <!-- Resume file must be in same folder: 'Santhosh P - Resume (2).pdf' -->
+        <a class="btn" href="Santhosh%20P%20-%20Resume%20(2).pdf" download target="_blank">Download Resume</a>
+        <a class="btn primary" href="mailto:santhoshashwin09@gmail.com?subject=Hiring%20Santhosh">Hire Me</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="card">
+          <div class="kicker">Hi — I'm Santhosh</div>
+          <h1>Building smart interfaces & practical ML solutions that employers trust.</h1>
+          <p class="lead">Frontend & ML — Q-learning based weekly weather models, published paddy leaf disease detection (AIEMD-2025), and INSAT data pipelines (SIH-ISRO finalist). I focus on performance, clear UX and production-ready code.</p>
+
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn primary" href="#projects">See Projects</a>
+            <a class="btn" href="mailto:santhoshashwin09@gmail.com">Message</a>
+            <a class="btn" href="https://www.linkedin.com/in/santhosh-p-580038282/" target="_blank">LinkedIn</a>
+            <a class="btn" href="https://github.com/San123-san" target="_blank">GitHub</a>
+          </div>
+
+          <div class="tags" aria-hidden="false" style="margin-top:14px">
+            <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">Q-Learning</span>
+            <span class="tag">React</span><span class="tag">GO</span><span class="tag">Satellite Data (COG)</span>
+          </div>
+
+          <div class="contact-grid" style="margin-top:16px">
+            <div class="card small">
+              <strong>Contact</strong><br>
+              <a href="mailto:santhoshashwin09@gmail.com">santhoshashwin09@gmail.com</a><br>
+              <span>+91 93616 14344</span><br>
+              <span>Trichy, Tamil Nadu, India</span>
+            </div>
+            <div class="card small">
+              <strong>Milestones</strong><br>
+              1st Rank — Anna University<br>
+              SIH 2024 — ISRO Finalist<br>
+              AIEMD-2025 — Published
+            </div>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h3>Quick Snapshot</h3>
+          <p class="small"><strong>Role seeking:</strong> Software dev / ML engineering</p>
+          <p class="small"><strong>Education:</strong> B.E CSE — First Class with Distinction</p>
+          <p class="small"><strong>Skills:</strong> Python · Java · C/C++ · JS · TensorFlow · RL</p>
+          <div style="margin-top:12px">
+            <a class="btn" href="Santhosh%20P%20-%20Resume%20(2).pdf" download>Download CV</a>
+          </div>
+        </aside>
+      </section>
+
+      <section id="projects" style="margin-top:18px">
+        <h2 style="margin-bottom:12px">Selected projects — (problem → approach → impact)</h2>
+        <div class="projects">
+          <div class="project card project-tilt" tabindex="0"
+               data-title="Paddy Leaf Disease Detection" data-desc="MobileNetV2 & EfficientNet-B0 optimized for mobile; published AIEMD-2025.">
+            <h3>Enhanced Paddy Leaf Disease Detection</h3>
+            <p class="small">Mobile-friendly CNNs, handled class imbalance, real-time inference for field use. Published (ISBN).</p>
+            <div class="tags"><span class="tag">MobileNetV2</span><span class="tag">EfficientNet</span><span class="tag">TensorFlow</span></div>
+          </div>
+
+          <div class="project card project-tilt" tabindex="0"
+               data-title="INSAT COG Pipeline (SIH2024)" data-desc="C-bound Go preprocessing + multiband COGs for faster rendering and efficient memory.">
+            <h3>INSAT Satellite COG AI Pipeline (SIH)</h3>
+            <p class="small">Cloud-optimized preprocessing for INSAT multiband COGs; improved speed & memory.</p>
+            <div class="tags"><span class="tag">Go</span><span class="tag">COG</span><span class="tag">Cloud</span></div>
+          </div>
+
+          <div class="project card project-tilt" tabindex="0"
+               data-title="Q-Learning Weather" data-desc="Q-learning for weekly weather forecasting — prototype & experiments at NIT Trichy.">
+            <h3>Q-Learning Weekly Weather Forecast</h3>
+            <p class="small">Reinforcement-learning based weekly prediction experiments using public datasets.</p>
+            <div class="tags"><span class="tag">Reinforcement Learning</span><span class="tag">Python</span><span class="tag">Time-series</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:22px">
+        <h2>Education & Honors</h2>
+        <div class="card" style="margin-top:10px">
+          <p class="small"><strong>B.E — Computer Science Engineering</strong><br>University College of Engineering, Anna University (CGPA 8.50). First Class with Distinction. Courses: Generative AI, Cloud, Deep Learning, Ethical Hacking, AR/VR.</p>
+          <p class="small"><strong>Milestones:</strong> 1st Rank Anna Univ., Department 2nd Rank, English Topper, SIH 2024 Finalist.</p>
+        </div>
+      </section>
+
+      <footer>
+        © 2025 Santhosh P — Built with HTML · CSS · JS
+      </footer>
+    </main>
+  </div>
+
+<script>
+/* 3D tilt for project tiles + keyboard accessible focus */
+(function(){
+  const tiles = document.querySelectorAll('.project-tilt');
+  tiles.forEach(tile=>{
+    function onMove(e){
+      const r = tile.getBoundingClientRect();
+      const x = (e.clientX - r.left)/r.width;
+      const y = (e.clientY - r.top)/r.height;
+      const rotY = (x - 0.5) * 16;
+      const rotX = (0.5 - y) * 12;
+      tile.style.transform = `perspective(800px) rotateX(${rotX}deg) rotateY(${rotY}deg) translateZ(6px)`;
+    }
+    tile.addEventListener('mousemove', onMove);
+    tile.addEventListener('mouseleave', ()=> tile.style.transform = '');
+    tile.addEventListener('focus', ()=> tile.style.transform = 'translateY(-6px)');
+    tile.addEventListener('blur', ()=> tile.style.transform = '');
+    // click opens modal-like small detail (simple)
+    tile.addEventListener('click', ()=> {
+      const title = tile.dataset.title || tile.querySelector('h3').innerText;
+      const desc = tile.dataset.desc || tile.querySelector('p').innerText;
+      alert(title + '\\n\\n' + desc + '\\n\\nLinks: GitHub / Case study coming soon');
+    });
+  });
+})();
+</script>
+</body>
+</html>
